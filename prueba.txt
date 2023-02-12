@@ -1,2 +1,2 @@
 Archivo modificado
-Linea de conflicto modo master
+Linea modificada desde la rama de desarrollo
