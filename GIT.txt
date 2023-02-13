@@ -1,0 +1,22 @@
+git init: Crea un nuevo repositorio de Git en la carpeta actual.
+git clone https://github.com/usuario/repositorio.git: Descarga un repositorio existente en una nueva carpeta con el mismo nombre del repositorio
+git add nombreArchivo1.txt: Agrega un archivo específico al área de preparación.
+git commit -m "Mensaje del commit": Guarda los cambios en el repositorio local con un mensaje que describa los cambios realizados
+git status: Muestra el estado actual del repositorio, incluyendo los archivos modificados y archivos en el área de preparación.
+git log: Muestra un registro de los commits realizados en el repositorio
+git diff: Muestra las diferencias entre los archivos en el repositorio y los archivos modificados en el directorio de trabajo.
+git branch nombreCarpeta2: Crea una nueva rama con el nombre especificado
+git checkout nombreCarpeta2: Cambia a la rama especificada.
+git merge nombreCarpeta2: Fusiona la rama especificada con la rama actual
+git pull: Descarga y fusiona los cambios remotos en el repositorio local.
+git push: Sube los cambios locales al repositorio remoto.
+git remote add origin https://github.com/usuario/repositorio.git : Añade un repositorio remoto al repositorio local
+git rm nombreArchivo1.txt : Elimina un archivo del repositorio y el directorio de trabajo.
+git mv nombreArchivo1.txt nuevoNombreArchivo1.txt : Renombra un archivo en el repositorio y en el directorio de trabajo.
+git ls-tree -r HEAD: Muestra la estructura de directorios y archivos en el último commit.
+git show HEAD~3: Muestra el contenido y metadatos del commit anterior al commit actual.
+git blame nombreArchivo1.txt : Muestra quién y cuándo se realizaron los cambios en cada línea del archivo especificado.
+git bisect: ayuda a encontrar el commit específico en el que se introdujo un bug o error.
+git cherry-pick: Aplica un commit específico a otra rama.
+git grep: Busca una cadena de texto específica en los archivos del repositorio.
+git fsck: verifica la integridad del repositorio.
